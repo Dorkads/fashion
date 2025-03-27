@@ -1,0 +1,48 @@
+@mixin text-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+@mixin h1 {
+  @font-face {
+    font-family: 'Poppins';
+    src: url(/src/fonts/Poppins-Black.woff) format('woff2');
+    font-weight: 900;
+    font-size: 96px;
+  }
+}
+
+@mixin h2 {
+  @font-face {
+    font-family: 'Poppins';
+    src: url(/src/fonts/Poppins-Black.woff) format('woff2');
+    font-weight: 900;
+    font-size: 96px;
+  }
+}
+
+@mixin h3 {
+  @font-face {
+    font-family: 'Poppins';
+    src: url(/src/fonts/Poppins-Black.woff) format('woff2');
+    font-weight: 900;
+    font-size: 48px;
+  }
+}
+
+@mixin p-regular ($size) {
+  @font-face {
+    font-family: 'Poppins';
+    src: url(/src/fonts/Poppins-Regular.woff) format('woff2');
+    font-weight: 400;
+    font-size: $size;
+  }
+}
+
+@mixin p-mdeium ($size) {
+  @font-face {
+    font-family: 'Poppins';
+    src: url(/src/fonts/Poppins-Medium.woff) format('woff2');
+    font-weight: 400;
+    font-size: $size;
+  }
+}
