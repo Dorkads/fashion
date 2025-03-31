@@ -1,27 +1,13 @@
 body {
-    @include text-poppins;
+  @include text-poppins;
 }
 
-@mixin container {
+.container {
   max-width: 1750;
-  margin: 0 15px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
-@mixin dflex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-@mixin dflex-between {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-@mixin pos-absolute {
-  position: absolute;
-  content: '';
-  left: 0;
-  top: 0;
+a {
+  color: $color-black;
 }

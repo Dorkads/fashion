@@ -1,0 +1,57 @@
+@mixin text-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+@mixin h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 96px;
+  line-height: 120px;
+  font-weight: 900;
+}
+
+@mixin h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 110px;
+  line-height: 137px;
+  font-weight: 900;
+}
+
+@mixin h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 48px;
+  line-height: 50px;
+  font-weight: 900;
+}
+
+@mixin p-regular($size) {
+  font-family: 'Poppins', sans-serif;
+  font-size: $size;
+  line-height: 50px;
+  font-weight: 400;
+}
+
+@mixin p-medium($size) {
+  font-family: 'Poppins', sans-serif;
+  font-size: $size;
+  line-height: 50px;
+  font-weight: 500;
+}
+
+@mixin dflex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin dflex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin pos-absolute {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+}

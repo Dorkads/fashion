@@ -1,0 +1,26 @@
+.header {
+  margin-top: 45px;
+  margin-bottom: 55px;
+  &__inner {
+    @include dflex-between;
+  }
+}
+.nav {
+  &__list {
+    @include dflex-between;
+    gap: 65px;
+    &-link {
+      @include p-medium(22px);
+      text-transform: uppercase;
+    }
+  }
+}
+
+.link {
+  &-black {
+    color: $color-white;
+    background-color: $color-black;
+    padding: 15px 22px;
+    border-radius: 7px;
+  }
+}

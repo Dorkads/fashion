@@ -1,6 +1,8 @@
-@use 'reset' as r;
-@use 'vars' as v;
-@use 'fonts' as f;
-@use 'base' as b;
+@import 'blocks/reset' ;
+@import 'blocks/fonts';
+@import 'blocks/vars';
+@import 'blocks/mixins';
+@import 'blocks/base';
 
-@use 'header' as header;
+@import 'blocks/header';
+@import 'blocks/hero';
