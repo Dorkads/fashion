@@ -37,6 +37,13 @@
   font-weight: 500;
 }
 
+@mixin roboto-regular ($size) {
+  font-family: 'Roboto', sans-serif;
+  font-size: $size;
+  line-height: 40px;
+  font-weight: 400;
+}
+
 @mixin dflex-center {
   display: flex;
   justify-content: center;
