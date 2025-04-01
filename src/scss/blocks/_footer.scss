@@ -58,6 +58,10 @@
 
   &__link {
     color: $color-text-footer;
+    transition: 0.3s;
+    &:hover {
+      color: $color-text-accent-footer;
+    }
   }
 
   &__list {
@@ -77,6 +81,10 @@
 
   &__link {
     color: $color-text-footer;
+    transition: 0.3s;
+    &:hover {
+      color: $color-text-accent-footer;
+    }
   }
 
   &__list {
@@ -96,6 +104,10 @@
 
   &__link {
     color: $color-text-footer;
+    transition: 0.3s;
+    &:hover {
+      color: $color-text-accent-footer;
+    }
   }
 
   &__list {

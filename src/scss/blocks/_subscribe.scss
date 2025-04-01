@@ -1,0 +1,47 @@
+.subscribe {
+  background-color: $color-accent;
+  &__inner {
+    @include dflex-center;
+    flex-direction: column;
+    padding: 140px 0 150px 0;
+
+    &-tittle {
+      color: $color-white;
+      @include h3;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    &-text {
+      color: $color-white;
+      @include p-regular(32px);
+      margin: 37px 0 50px 0;
+    }
+  }
+}
+
+.form {
+  &__tittle {
+    background-color: $color-white;
+    padding: 30px 25px;
+    border-radius: 10px;
+  }
+
+  &__text {
+    @include p-regular(24px);
+    color: $color-black;
+    width: 307px;
+    ::placeholder {
+      color: $color-text-form;
+      @include p-regular(24px);
+    }
+  }
+
+  &__button {
+    background-color: $color-black;
+    padding: 15px 35px;
+    color: $color-white;
+    border-radius: 8px;
+    margin-left: 10px;
+  }
+}

@@ -256,6 +256,99 @@ a {
   width: 880px;
 }
 
+.subscribe {
+  background-color: #E6C744;
+}
+.subscribe__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 140px 0 150px 0;
+}
+.subscribe__inner-tittle {
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 55px;
+  line-height: 70px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+}
+.subscribe__inner-text {
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  line-height: 50px;
+  font-weight: 400;
+  margin: 37px 0 50px 0;
+}
+
+.form__tittle {
+  background-color: #FFFFFF;
+  padding: 30px 25px;
+  border-radius: 10px;
+}
+.form__text {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  line-height: 50px;
+  font-weight: 400;
+  color: #000000;
+  width: 307px;
+}
+.form__text ::-webkit-input-placeholder {
+  color: #767676;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  line-height: 50px;
+  font-weight: 400;
+}
+.form__text ::-moz-placeholder {
+  color: #767676;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  line-height: 50px;
+  font-weight: 400;
+}
+.form__text :-ms-input-placeholder {
+  color: #767676;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  line-height: 50px;
+  font-weight: 400;
+}
+.form__text ::-ms-input-placeholder {
+  color: #767676;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  line-height: 50px;
+  font-weight: 400;
+}
+.form__text ::placeholder {
+  color: #767676;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  line-height: 50px;
+  font-weight: 400;
+}
+.form__button {
+  background-color: #000000;
+  padding: 15px 35px;
+  color: #FFFFFF;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
 .footer {
   background-color: #000000;
   width: 100%;
@@ -343,6 +436,11 @@ a {
 }
 .footercamp__link {
   color: #8E8E8E;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.footercamp__link:hover {
+  color: #D9D9D9;
 }
 .footercamp__list {
   display: -webkit-inline-box;
@@ -361,6 +459,11 @@ a {
 }
 .footerlink__link {
   color: #8E8E8E;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.footerlink__link:hover {
+  color: #D9D9D9;
 }
 .footerlink__list {
   display: -webkit-inline-box;
@@ -379,6 +482,11 @@ a {
 }
 .footerlegal__link {
   color: #8E8E8E;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.footerlegal__link:hover {
+  color: #D9D9D9;
 }
 .footerlegal__list {
   display: -webkit-inline-box;
