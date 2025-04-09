@@ -22,5 +22,11 @@
     background-color: $color-black;
     padding: 15px 22px;
     border-radius: 7px;
+
+    transition: .3s;
+
+    &:hover {
+      @include blackbntHoverAccent;
+    }
   }
 }

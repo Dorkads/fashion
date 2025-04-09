@@ -86,3 +86,8 @@
   color: $color-black;
   background-color: $color-white;
 }
+
+@mixin blackbntHoverAccent {
+  color: $color-black;
+  background-color: $color-accent;
+}
