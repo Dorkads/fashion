@@ -44,6 +44,13 @@
   font-weight: 500;
 }
 
+@mixin p-black($size) {
+  font-family: 'Poppins', sans-serif;
+  font-size: $size;
+  line-height: 50px;
+  font-weight: 900;
+}
+
 @mixin roboto-regular ($size) {
   font-family: 'Roboto', sans-serif;
   font-size: $size;

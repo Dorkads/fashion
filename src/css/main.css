@@ -324,6 +324,77 @@ body {
   height: 63px;
 }
 
+.arrivals {
+  margin-bottom: 190px;
+}
+.arrivals__title {
+  position: relative;
+  z-index: 10;
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  line-height: 50px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 120px;
+  margin-left: 7rem;
+  display: inline-block;
+}
+.arrivals__title::before {
+  position: absolute;
+  top: 18px;
+  right: -10px;
+  z-index: -10;
+  content: url(/src/images/icons/arrivals/Vector\ 8.svg);
+}
+.arrivals__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 90px;
+}
+.arrivals__item {
+  position: relative;
+}
+.arrivals__item-img {
+  max-width: 485px;
+  height: 705px;
+  border-radius: 20px;
+}
+.arrivals__item-title {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  line-height: 50px;
+  font-weight: 500;
+}
+.arrivals__item-title::before {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  content: url(/src/images/icons/arrivals/Arrow\ 1.svg);
+}
+.arrivals__item-desc {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  line-height: 50px;
+  font-weight: 500;
+  color: #7F7F7F;
+}
+.arrivals__item-desc::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .subscribe {
   background-color: #E6C744;
 }
