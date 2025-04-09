@@ -1,0 +1,47 @@
+.partners {
+    background-color: $color-accent;
+
+    margin: 60px 0;
+
+    &__inner {
+        height: auto;
+        padding: 60px 0 55px 0;
+        @include dflex-center;
+        gap: 120px;
+
+    }
+
+    &__img {
+
+        &-hm {
+            max-width: 118px;
+            height: 70px;
+        }
+
+        &-obey {
+            max-width: 150px;
+            height: 67px;
+        }
+
+        &-shopify {
+            max-width: 176px;
+            height: 62px;
+        }
+
+        &-lacoste {
+            max-width: 235px;
+            height: 70px;
+        }
+
+        &-levis {
+            max-width: 127px;
+            height: 71px;
+        }
+
+        &-amazon {
+            max-width: 166px;
+            height: 63px;
+        }
+    }
+
+}

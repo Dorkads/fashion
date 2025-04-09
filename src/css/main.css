@@ -281,6 +281,49 @@ body {
   width: 880px;
 }
 
+.partners {
+  background-color: #E6C744;
+  margin: 60px 0;
+}
+.partners__inner {
+  height: auto;
+  padding: 60px 0 55px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 120px;
+}
+.partners__img-hm {
+  max-width: 118px;
+  height: 70px;
+}
+.partners__img-obey {
+  max-width: 150px;
+  height: 67px;
+}
+.partners__img-shopify {
+  max-width: 176px;
+  height: 62px;
+}
+.partners__img-lacoste {
+  max-width: 235px;
+  height: 70px;
+}
+.partners__img-levis {
+  max-width: 127px;
+  height: 71px;
+}
+.partners__img-amazon {
+  max-width: 166px;
+  height: 63px;
+}
+
 .subscribe {
   background-color: #E6C744;
 }
