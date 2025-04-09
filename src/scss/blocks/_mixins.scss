@@ -76,3 +76,13 @@
   left: 0;
   top: 0;
 }
+
+@mixin blackbtn {
+  color: $color-white;
+  background-color: $color-black;
+}
+
+@mixin blackbntHover {
+  color: $color-black;
+  background-color: $color-white;
+}

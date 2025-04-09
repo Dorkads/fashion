@@ -1,0 +1,67 @@
+.sale {
+
+    background-color: $color-accent;
+    margin-bottom: 190px;
+
+    &__inner {
+
+        @include dflex-center;
+        gap: 200px;
+    }
+
+    &__img {
+
+        width: 474px;
+    }
+
+    &__title {
+        position: relative;
+        z-index: 10;
+        @include h2;
+        width: 590px;
+
+        &::before {
+            position: absolute;
+            content: '';
+            top: 0;
+            left: -20px;
+            width: 540px;
+            height: 130px;
+            background-color: $color-white;
+            z-index: -10;
+            transform: rotate(-2deg);
+        }
+    }
+
+    &__desc {
+
+        margin-bottom: 40px
+    }
+
+    &__text {
+
+        @include p-medium (36px);
+        max-width: 720px;
+    }
+
+    &__text-black {
+
+        @include p-black (36px);
+    }
+
+
+    &__link {
+
+        @include blackbtn;
+        padding: 25px 50px;
+        border-radius: 10px;
+        display: inline-flex;
+        margin-top: 50px;
+        transition: .3s;
+
+        &:hover {
+            @include blackbntHover;
+        }
+    }
+    
+}

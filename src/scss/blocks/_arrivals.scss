@@ -37,7 +37,7 @@
     &-title {
       position: relative;
       @include p-medium(32px);
-
+      margin-top: 28px;
       &::before {
         position: absolute;
         top: 30px;
